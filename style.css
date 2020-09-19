@@ -58,6 +58,10 @@ h2 {
 }
 
 #last-updated{
-    color: blue;
+    color: rgb(233, 233, 162);
     font-size: 14px;
+}
+
+#footer-link {
+    color: white;
 }
