@@ -1,0 +1,30 @@
+@media screen and (max-width: 643px){
+   header {
+       /* padding: 10px; */
+   }
+
+   img{
+       float: none;
+   }
+
+   h1 {
+       font-size: 30px;
+   }
+
+   h2{
+       font-size: 30px;
+   }
+
+  #container{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  hr {
+    margin-right: 0px;
+  }
+
+  
+
+
+}

@@ -5,7 +5,7 @@
 
 
 header, main, body, footer {
-    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-family: 'DM Sans', sans-serif;;
 }    
 
 #container {
@@ -17,10 +17,9 @@ header {
     background-color: rgb(14, 14, 41);
     border-radius: 8px;
     text-align: center;
-    height: 60px;
     color: white;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 15px; 
     padding: 15px;
 }
 
@@ -29,6 +28,10 @@ header {
 main {
     padding: 50px;
     margin-left: -20px;
+}
+
+hr {
+    margin-right: 200px;
 }
 
 nav {
@@ -50,7 +53,11 @@ img {
     max-width: 150px;
     border-radius: 5px;
     margin: 30px;
-    margin-top: -30px;
+    margin-top: 10px;
+}
+
+h1{
+    margin:10px;
 }
 
 h2 {
