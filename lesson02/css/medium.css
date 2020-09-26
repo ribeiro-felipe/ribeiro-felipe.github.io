@@ -1,0 +1,4 @@
+@media screen and (max-width: 1022px) {
+   main {grid-template-columns: 1fr 1fr;
+   }
+}
