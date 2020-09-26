@@ -1,0 +1,79 @@
+* {
+    font-family: 'Numans', sans-serif;
+}
+
+header{
+    background-color: rgb(0, 41, 107);
+    color: white;
+    text-align: center;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1.5em;
+}
+
+main section {
+    background-color: gainsboro;
+    margin: 1.5em;
+    display: block;
+}
+
+
+#gopro, #duolingo, #robinhood {
+    text-align: center;
+}
+
+
+h1 {
+    background-color: rgb(0, 41, 107);
+    color: white; 
+    font-size: 48px;
+}
+
+h2 {
+    background-color: rgb(0, 41, 107);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#duolingo-pp, #gopro-pp, #robinhood-pp{
+    text-align: center;
+    padding: 1em;
+}
+
+
+footer{
+    background-color: rgb(0, 41, 107);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+footer a:visited {
+    color: yellow;
+}
