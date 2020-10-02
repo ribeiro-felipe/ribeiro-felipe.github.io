@@ -35,6 +35,10 @@ h1 {
     font-size: 48px;
 }
 
+#name {
+    font-size: 1.6em;
+}
+
 h2 {
     background-color: rgb(0, 41, 107);
     color: white;
@@ -43,8 +47,9 @@ h2 {
     margin: 0;
 }
 
-h3 {
+.title_name {
     text-align: center;
+    font-size: 1.6em;
 }
 
 img {

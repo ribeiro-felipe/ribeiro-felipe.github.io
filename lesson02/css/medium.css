@@ -1,4 +1,6 @@
-@media screen and (max-width: 1022px) {
+@media screen and (max-width: 1090px) {
    main {grid-template-columns: 1fr 1fr;
    }
 }
+
+1090
