@@ -25,10 +25,12 @@ header {
 
 
 #logo {
-    float: left;
     max-width: 20%;
     background-color: white;
     border-radius: 45px;
+    margin-left: 18em;
+    /* box-shadow: -3px 8px 18px gray; */
+    /* border: solid 1px black; */
 }
 
 nav {
