@@ -1,4 +1,5 @@
-@media screen and (max-width: 1020px) {
-    main {grid-template-columns: 1fr;
+@media only screen and (max-width: 1020px) {
+    main {
+        grid-template-columns: 1fr;
     }
  }
