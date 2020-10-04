@@ -3,12 +3,12 @@
         grid-template-columns: 1fr 1fr;
     }
  
-nav ul {
+    nav ul {
     display: flex;
-}
+    }
 
-nav ul li {
+    nav ul li {
     flex: 1 1 100%;
-}
+    }
 
 }

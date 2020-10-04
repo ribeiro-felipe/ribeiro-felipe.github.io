@@ -69,7 +69,7 @@ nav ul li a:hover{
 
 main {
     font-family: 'Merriweather', serif;
-    background-color: #E9E3E6;
+    background-color: white;
     padding: 15em;
     padding-top: 2em;
     line-height: 2em;
@@ -103,6 +103,10 @@ section {
 
 footer {
     text-align: center;
+}
+
+footer a:visited {
+    color: #EE655E
 }
 
 
