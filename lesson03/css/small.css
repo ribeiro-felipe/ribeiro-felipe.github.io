@@ -33,10 +33,19 @@ header {
     /* border: solid 1px black; */
 }
 
+#logo_nav {
+    max-width: 15%;
+    background-color: white;
+    border-radius: 45px;
+}
+
+
+
 nav {
     font-family: 'Merriweather Sans', sans-serif;
     background-color: #00B9AE;
     text-align: center;
+    align-self: center;
     
     /* box-shadow: 0 2px 15px gray; */
 }
@@ -59,8 +68,10 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    background-color: #EE655E;
-    color: #12130F;
+    background-color:  #037171;
+    color: white;
+    /* color: #12130F; */
+    border-radius: 10px;
 }
 
 .active {
