@@ -1,5 +1,21 @@
-@media only screen and (max-width: 1020px) {
+@media only screen and (min-width: 1020px) {
+    
+    header {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+    #logo {
+        float: left;
+        margin-left: 20em;
+        margin-bottom: 1em;
+    }
+    
     main {
         grid-template-columns: 1fr;
+        padding: 15em;
+        padding-top: 2em;
     }
  }
