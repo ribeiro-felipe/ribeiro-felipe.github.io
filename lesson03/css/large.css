@@ -17,5 +17,6 @@
         grid-template-columns: 1fr;
         padding: 15em;
         padding-top: 2em;
+        text-align: left;
     }
  }
