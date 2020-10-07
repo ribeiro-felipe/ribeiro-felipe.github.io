@@ -4,7 +4,11 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
+        font-size: 18px;
         
+    }
+    nav ul li a {
+        font-size: 16px;
     }
     
     #logo {
