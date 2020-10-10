@@ -10,6 +10,10 @@
     nav ul li a {
         font-size: 16px;
     }
+
+    nav ul {
+        display: flex;
+    }
     
     #logo {
         float: left;
