@@ -95,8 +95,10 @@ nav ul.hide {
 .main_content {
     background-color:lightgrey;
     border: dashed 1px black;
-    padding: 1em;
+    padding: 3em;
     margin: 10px;
+    font-size: 10px;
+
 }
 
 main {
