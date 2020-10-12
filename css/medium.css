@@ -15,6 +15,11 @@
        font-size: 30px;
    }
 
+   main {
+     text-align: left;
+   }
+
+
   #container{
     width: 70%;
     margin: 0 auto;

@@ -26,9 +26,16 @@ header {
 
 
 main {
-    padding: 50px;
+    padding: 1em;
     margin-left: -20px;
+    text-align: center;
 }
+
+
+ul {
+    text-align: left;
+}
+
 
 hr {
     margin-right: 200px;
