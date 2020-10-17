@@ -90,6 +90,10 @@ nav ul.hide {
     display: none;
 }
 
+#active_page {
+    color: #EE655E;
+}
+
 /* main*/
 
 .main_content {
