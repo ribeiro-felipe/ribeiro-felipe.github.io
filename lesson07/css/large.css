@@ -50,7 +50,6 @@
         padding: 30px;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2rem;
-        background-color: #d9f0ff
     }
     
     .grid-img p {
