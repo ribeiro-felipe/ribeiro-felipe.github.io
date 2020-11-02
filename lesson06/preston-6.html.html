@@ -36,36 +36,35 @@
            </nav>
 
        <main>
-            <h2>Preston Idaho</h2>
-            <div class="main_content">
-                <div class="main_image">
-                    <img src="/lesson05/img/div_imgs/les-anderson-l28mbIMyISY-unsplash.jpg" alt="Image of Preston, Idaho." id="img1">
-                    <div id="wsummary">
-                        <table id="wsummary_table">
-                            <tr>
-                                <td class="column_a">Currently: </td>
-                                <td class="column_b">Sunny </td>
-                            </tr>
-                            <tr>
-                                <td class="column_a">High: </td>
-                                <td class="column_b">76 °F </td>
-                            </tr>
-                            <tr>
-                                <td class="column_a">Wind Chill: </td>
-                                <td class="column_b">62 °F </td>
-                            </tr>
-                            <tr>
-                                <td class="column_a">Humidity: </td>
-                                <td class="column_b">69% </td>
-                            </tr>
-                            <tr>
-                                <td class="column_a">Wind Speed: </td>
-                                <td class="column_b">5 mph </td>
-                            </tr>
-                        </table>
+        <h2>Preston Idaho</h2>
+        <div class="main_content">
+            <div class="main_image">
+                <picture>
+                    <source media="(max-width: 550px)" srcset="/lesson06/img/imgs/small.jpg">
+                    <source media="(max-width: 980px)" srcset="/lesson06/img/imgs/large.jpg">
+                    <img src="/lesson06/img/imgs/medium.jpg" alt="Preston hero image." alt="Image of Preston, Idaho." id="img1">
+                </picture>
+                <section class='weather-summary'>
+                    <h2>Weather Summary</h2>
+                    <div class='flex-container'>
+                       <div class='weather-summary-labels'>
+                          <p>Currently:</p>
+                          <p>High:</p>
+                          <p>Wind Chill:</p>
+                          <p>Humidity:</p>
+                          <p>Wind Speed:</p>
+                       </div>
+                       <div class='weather-summary-answers'>
+                          <p>Sunny</p>
+                          <p>76 &deg;F</p>
+                          <p>65 &deg;F</p>
+                          <p>55%</p>
+                          <p>15 mph</p>
+                       </div>
                     </div>
-                </div>
+                 </section>
             </div>
+        </div>
             <div class="main_content">
                 <h3>Weather Forecast</h3>
                 <div id=forecast>
