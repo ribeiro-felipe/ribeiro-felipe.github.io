@@ -96,7 +96,8 @@ nav ul.hide {
 }
 
 #active_page {
-    color: #EE655E;
+    text-decoration: overline;
+    text-decoration-color:  #EE655E;
 }
 
 /* gallery */
