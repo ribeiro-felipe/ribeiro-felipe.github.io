@@ -2,17 +2,21 @@ table {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
     box-shadow: 6px 6px 8px #628ca6;
+    font-size: 18px;
 }
+
 table, tr,td {
     border-collapse: collapse;
     border: 1px solid rgb(200, 200, 200);
     padding:9px;
-    font-size: 18px;
 }
 th {
-    font-size: 18px;
     background-color: #628ca6;
     color: white;
+}
+tfoot {
+    background-color: #7fb9c2;
+    font-size: 14px;
 }
 tr:nth-child(odd){
     background-color:#e7f0ed;
@@ -24,21 +28,19 @@ tr:nth-child(2) {
     color:white;
     background-color:#628ca6;
 }
-tbody tr:nth-child(4) td:nth-child(3) {
-    color: white;
-    background-color: #628ca6;
-}
+
 thead td {
     background-color: #7fb9c2;
     font-size: 30px;
     font-weight: bold;
 }
+tbody tr:nth-child(4) td:nth-child(3) {
+    color: white;
+    background-color: #628ca6;
+}
 tbody tr:nth-child(5) td:nth-child(1) {
     font-style: italic;
 }
-tfoot {
-    background-color: #7fb9c2;
-    font-size: 12px;
-    text-align: center;
-}
+
+
 
