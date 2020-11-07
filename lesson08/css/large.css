@@ -1,0 +1,61 @@
+@media only screen and (min-width: 990px) {
+    
+    header {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: .3fr 1fr;        
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+    
+    #logo {
+        float: left;
+        margin-left: 10em;
+        margin-bottom: 1em;
+    }
+    
+    main {
+        grid-template-columns: 1fr;
+        padding: 15em;
+        padding-top: 2em;
+        padding-bottom: 5.5em;
+        text-align: left;
+    }
+
+    #logo {
+        max-width: 100px;
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+    
+    h1 {
+        margin-left: -40px;
+        font-size: 28px;
+        
+    }
+    
+    #motto_phrase {
+        margin-left: -40px;
+        margin-top: -70px;
+        padding: 1em;
+        grid-column: 2/3;
+    }
+ 
+    .weather-summary  {
+        background-color: #037171;
+        opacity: .7;
+        max-width: 50%;
+        position: absolute;
+        top: 253px;
+        left: 280px;
+        padding: 1.2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+
+ }
