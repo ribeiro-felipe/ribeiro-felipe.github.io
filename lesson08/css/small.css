@@ -145,7 +145,7 @@ form label.top input:required:valid {
 
 form label.top {
     display: block;
-    padding-bottom: 1rem;
+    padding: 1rem;
     color: black;
 }
 
@@ -161,6 +161,23 @@ form label.top input, form label.top select {
 }
 
 form label.sbs {
+    display: inline;
+    padding: 2em;
+}
+
+#danger-heading {
+    padding: 1em;
+    color: black;
+    margin-left: .5rem;
+}
+
+form input.report-button {
     display: block;
-    padding: .5em ;
+    border: none;
+    border-radius: .8rem;
+    background-color:#EE655E;
+    color: white;
+    padding: 1em;
+    width: 30%;
+    margin-left: 20em;
 }

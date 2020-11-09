@@ -40,25 +40,25 @@
             <div id="page-form">
             <form method="get" action="thanks.html">
                 <fieldset>
-                    <legend>Contact</legend>
+                    <legend></legend>
                     <div class="form-field">
-                        <label class="top">Full Name*<input type="text" name="fullname" pattern="(w| ){5,)" required></label>
+                        <label class="top">Full Name *<input type="text" name="fullname" pattern="(w| ){5,)" required></label>
                     </div>
                     <div class="form-field">
-                        <label class="top">Email*<input type="email" name="email"  placeholder="name@email.com" required></label>
+                        <label class="top">Email *<input type="email" name="email"  placeholder="name@email.com" required></label>
                     </div>
                     <div class="form-field">
                         <label class="top">Phone<input type="tel" name="phone"  placeholder="(xxx) xxx-xxxx"></label>
                     </div>
                     <div class="form-field">
-                        <label class="top">Zip Code*<input type="number" name="zipcode"  placeholder="55555" required></label>
+                        <label class="top">Zip Code *<input type="number" name="zipcode"  placeholder="55555" required></label>
                     </div>
                     <div class="form-field">
                         <label class="top">Storm Date<input type="date" name="sdate"></label>
                     </div>
-                </fieldset>
+                
 
-                <legend>Storm</legend>
+                
                 <div class="form-field">
                 <label class="top" for="stormy" id="storm">Storm Type<input list="storm-list" id="stormy" name="storms"></label>
                 <datalist id="storm-list">
@@ -71,8 +71,9 @@
                 </div>
 
                 <div class="form-field">
-                <label class="top" for="rating">Storm Severity
-                <div class="number">
+                <label class="top" for="rating">
+                    Storm Severity
+                <div class="rate">
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span></label>
                 </div>
@@ -106,20 +107,24 @@
                 </div>        
 
                 
-                    <div>Are you in Danger
+                    <div>
+                        <p id="danger-heading">Are you in Danger</p>
                         <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
                         <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
                         <label class="sbs"><input type="radio" name="danger" value="no">No</label>
                     </div>
                     
-
+                    
+                    <br>
                     <label class="top">Additional Information</label>
                     <textarea name="additionalinfo" rows="6" cols="44"></textarea>
-                    <input type="submit" value="Report" class="submitBtn">
-
-
-
                 </fieldset>
+                    <br>
+                    <input type="submit" value="Report" class="report-button">
+
+
+
+                
 
 
        </main>
