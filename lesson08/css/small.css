@@ -154,8 +154,13 @@ form label.top input, form label.top select {
     border: solid 2px #037171;
     border-radius: 8px;
     padding: .5rem;
-    width: 80%;
-    max-width: 100%;
+    width: 95%;
+    max-width: 95%;
     background-color: #cee7e7;
     color: #037171;
+}
+
+form label.sbs {
+    display: block;
+    padding: .5em ;
 }
