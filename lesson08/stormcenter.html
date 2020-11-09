@@ -50,7 +50,7 @@
                     <div class="form-field">
                         <label class="top">Phone<input type="tel" name="phone"  placeholder="(xxx) xxx-xxxx"></label>
                     </div>
-                    <div class="form-field"><
+                    <div class="form-field">
                         <label class="top">Zip Code*<input type="number" name="zipcode"  placeholder="55555" required></label>
                     </div>
                     <div class="form-field">
@@ -59,7 +59,7 @@
                 </fieldset>
 
                 <legend>Storm</legend>
-
+                <div class="form-field">
                 <label class="top" for="stormy" id="storm">Storm Type<input list="storm-list" id="stormy" name="storms"></label>
                 <datalist id="storm-list">
                     <option value="Flash Flood">
@@ -68,8 +68,9 @@
                     <option value="Thunderstorm">
                     <option value="Tornado">
                 </datalist>
-       
-                <div>
+                </div>
+
+                <div class="form-field">
                 <label class="top" for="rating">Storm Severity
                 <div class="number">
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -77,6 +78,7 @@
                 </div>
             </div>
 
+            <div class="form-field">
                 <datalist id="tickmarks">
                     <option value="0">
                     <option value="1">
@@ -90,7 +92,8 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-
+            </div>    
+                <div class="form-field">
                     <label class="top" for="location" id="area">Storm Region
                         <select name="region" id="location">
                             <option value="" selected disabled>Select Region</option>
@@ -100,7 +103,7 @@
                             <option value="elsewhere">Somewhere in Idaho</option>
                             <option value="unknown">Unknown</option>
                         </select></label>
-
+                </div>        
 
                 
                     <div>Are you in Danger
