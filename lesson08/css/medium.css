@@ -70,6 +70,15 @@
 footer {
     padding: 3em;
 }
-
+form input.report-button {
+    display: block;
+    border: none;
+    border-radius: .8rem;
+    background-color:#EE655E;
+    color: white;
+    padding: 1em;
+    width: 30%;
+    margin-left: 15em;
+}
 
 }

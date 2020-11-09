@@ -179,5 +179,6 @@ form input.report-button {
     color: white;
     padding: 1em;
     width: 30%;
-    margin-left: 20em;
+    margin-left: 10em;
+    margin-bottom: 3em;
 }
