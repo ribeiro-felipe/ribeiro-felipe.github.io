@@ -1,0 +1,84 @@
+@media only screen and (min-width: 560px) {
+    main { 
+        padding: 2em;
+        padding-top: 2em;
+    }
+ 
+    nav ul {
+    display: flex;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+    flex: 1 1 100%;
+    }
+  
+    .weather-summary {
+        background-color: #037171;
+        opacity: .8;
+        max-width: 50%;
+        position: absolute;
+        top: 232px;
+        left: 100px;
+        padding: 1.2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+
+
+
+    #forecast {
+        display:block;
+    }
+    #article-img {
+        width: 30%;
+        float: right;
+    }
+
+    #five_days {
+        border-collapse: collapse;
+    }  
+    
+    #five_days, .five-td, .five-th {
+        border: 3px solid teal;
+        text-align: center;
+        padding: .5rem;
+      }
+    
+    .five-th {
+        width: 150px;
+        background-color: teal;
+        color: white;
+    }
+
+
+#map {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+}
+
+footer {
+    padding: 3em;
+}
+form input.report-button {
+    display: block;
+    border: none;
+    border-radius: .8rem;
+    background-color:#EE655E;
+    color: white;
+    padding: 1em;
+    width: 30%;
+    margin-left: 15em;
+}
+
+}
