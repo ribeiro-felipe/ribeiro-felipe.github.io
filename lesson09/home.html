@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="/lesson09/css/small.css">
     <link rel="stylesheet" href="/lesson09/css/medium.css">
     <link rel="stylesheet" href="/lesson09/css/large.css">
-    <title>Smart Weather | Preston</title>
+    <link rel="stylesheet" href="/lesson09/css/home.css">
+    <title>Smart Weather | Home</title>
 </head>
 <body>
     <aside id="banner-announcement" class="banner-announcement">
@@ -26,43 +27,70 @@
            <nav>
                <button onclick="toggleMenu()">&#9776; Menu</button>
                <ul id="primaryNav" class="hide">
-                   <li><a href="#">Home</a></li>
-                   <li><a href="#" id="active_page">Preston</a></li>
+                   <li><a href="/lesson09/home.html" id="active_page">Home</a></li>
+                   <li><a href="/lesson05/preston-5.html.html">Preston</a></li>
                    <li><a href="#">Soda Springs</a></li>
                    <li><a href="#">Fish Haven</a></li>
-                   <li><a href="#">Storm Center</a></li>
-                   <li><a href="#">Gallery</a></li>
+                   <li><a href="/lesson08/stormcenter.html">Storm Center</a></li>
+                   <li><a href="/lesson07/gallery-7.html">Gallery</a></li>
                </ul>
            </nav>
+   <main>
+      <h2>The Smart Weather Website</h2>
+      <section class="article-section">
+         <img
+            srcset="images/jeremy-bishop-pnSwnfQpPf4-unsplash-520x-small.jpg 520w,
+                    images/jeremy-bishop-pnSwnfQpPf4-unsplash-740x-medium.jpg 740w,
+                    images/jeremy-bishop-pnSwnfQpPf4-unsplash-319x-large.jpg 319w"
+            sizes="(min-width: 1024px) 319px, 
+                   (min-width: 590px) 740px,
+                    520px"
+            src="images/wdd230_image_franklinOriginal-589x-small.webp"
+            alt="preston idaho weather page">
+         <h3>Sunny Days are Coming</h3>
+         <div class="article-author">by Joni Jones</div>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur nam eligendi deleniti animi saepe earum, necessitatibus
+            dolore iste repellendus totam minima, nemo molestias similique cum
+            ratione expedita aliquid, sint eveniet porro dolorem rerum? Magnam
+            error nesciunt quo libero numquam, quis explicabo doloremque sit,
+            debitis at fuga hic tempore nam neque unde magni quam, atque illo
+            voluptatibus amet minima quisquam blanditiis? Sit placeat sapiente
+            ipsam, deserunt sequi dolorem quas sint laboriosam aspernatur dolore
+            sequi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
+            a aut veniam commodi! Omnis, ex dignissimos quis assumenda ipsam
+            iusto temporibus ea quisquam animi ratione! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Voluptatem fugit eligendi
+            doloremque, nostrum nisi, harum similique velit asperiores pariatur
+            ipsa quo voluptatum optio libero. Consequatur!...</p>
+         <a href="#">read more</a>
+      </section>
+      <section class="town-information">
+         <h3>Highlights of Our Local Towns</h3>
+         <div id="town-cards" class="town-cards"></div>
+      </section>
 
-       <main>
-           <h2>Home</h2>
-           <div id="main-div">
-               <h3>The Weather</h3>
-               <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint inventore libero ratione sit reprehenderit dolorem voluptas, voluptatum incidunt maxime ab laborum aspernatur facilis mollitia quidem eos porro doloribus atque labore.
-               </p>
-               <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolores quam delectus ducimus. Nulla natus delectus recusandae dignissimos debitis enim, ad id velit aliquam quis perferendis consectetur maxime? Ex, est!
-               </p>
-               <p>
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut nemo corporis quis sed nobis tempora illo, velit distinctio, quae, laboriosam facilis harum possimus? Praesentium voluptatum consectetur cupiditate autem quam id.
-               </p>
-               <img src="#" alt="#">
-           </div>
-           
-           <div class="cards"></div>
+   </main>
+   <footer>
+    <div class="footer-section">
+        &copy;<span id="year"></span> Felipe Ribeiro | Idaho | <a id="footer-link"
+            href="https://www.byui.edu/">BYU-I Online
+            Learning</a><br><span id="last-updated"><span id="current-date"></span></span>
+    </div>
+</footer>
+   <script src="/lesson09/js/script.js"></script>
+   <script src="/lesson09/js/town-summary.js"></script>
 
-       </main>
-
-       <footer>
-        <div class="footer-section">
-            &copy;<span id="year"></span> Felipe Ribeiro | Idaho | <a id="footer-link"
-                href="https://www.byui.edu/">BYU-I Online
-                Learning</a><br><span id="last-updated"><span id="current-date"></span></span>
-        </div>
-    </footer>
-
-    <script src="/lesson09/js/script.js"></script>
+   <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+   </script>
+   <script>
+      WebFont.load({
+         google: {
+            families: ['Bungee Inline', 'Fredoka One', 'Roboto']
+         }
+      });
+   </script>
 </body>
+
 </html>
