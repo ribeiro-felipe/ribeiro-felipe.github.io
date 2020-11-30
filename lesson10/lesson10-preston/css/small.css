@@ -37,7 +37,7 @@ h1 {
 
 .banner-announcement {
     display: none;
-    background: radial-gradient(#fff7af,  #ffeb3b);
+    background-image: radial-gradient(yellow, rgb(241, 241, 26));
     padding: 0.5em;
     text-align: center;
     font-weight: bold;
@@ -117,30 +117,64 @@ main {
     border:none;
 }
 
-#wsummary {
-    background-color: #037171;
-    opacity: .7;
-    max-width: 50%;
-    position: absolute;
-    top: 38%;
+.flex-container {
+    display: flex;
+}
+
+.weather-summary {
+    /* position: relative; */
+    display: block;
+    top: 32%;
     left: 20%;
-    padding: 1.2em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-}
+    width: 215px;
+    background-image: radial-gradient(#037171, #00B9AE);
+    opacity: 0.9;
+    border: 1px solid var(--alternate-color-1);
+    box-shadow: 0 0 30px #aaa;
+    color: #12130F;
+    padding: 0.8rem;
+ }
 
-#img1 {
+ /* .weather-summary {
+     display: block;
+ } */
+
+ .weather-summary h2 {
+    color: #12130F;
+    font-size: 1.5em;
+    text-align: center;
+ }
+ 
+ .weather-summary-labels {
+    text-align: left;
+    padding: 0 1em 0 0;
+ }
+ 
+ .weather-summary p {
+    margin: 0;
+    padding: 0.25em 0;
+    font-weight: bold;
+ }
+ 
+ .weather-summary-answers p {
+    color: #99403b;
+ }
+ 
+ .weather-summary h2 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 0 0.5em;
+ }
+
+ .hero {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+ }
+ 
+ img {
     max-width: 100%;
-    margin: auto;
 }
-
-.column_a {
-    color: white;
-}
-
-.column_b {
-    color: #EE655E; 
-}
+ 
 
 #forecast {
     display: none;

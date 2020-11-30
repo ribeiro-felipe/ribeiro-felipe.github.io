@@ -45,8 +45,8 @@
         padding: 1em;
         grid-column: 2/3;
     }
-
-    #wsummary {
+ 
+    .weather-summary  {
         background-color: #037171;
         opacity: .7;
         max-width: 50%;

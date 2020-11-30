@@ -19,18 +19,20 @@
     nav ul li {
     flex: 1 1 100%;
     }
-
-    #wsummary {
+  
+    .weather-summary {
         background-color: #037171;
-        opacity: .7;
+        opacity: .8;
         max-width: 50%;
         position: absolute;
-        top: 221px;
+        top: 232px;
         left: 100px;
         padding: 1.2em;
         padding-top: 1.5em;
         padding-bottom: 1.5em;
     }
+
+
 
     #forecast {
         display:block;
