@@ -1,0 +1,183 @@
+* {
+    margin: 0 auto;
+    font-family: 'Merriweather Sans', sans-serif
+}
+
+header, 
+footer {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #037171;
+    color: white;
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+
+#logo {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+h1 {
+    padding: .5em;
+    margin-left: -80px;
+    font-size: 24px;
+    
+}
+
+#motto_phrase {
+    margin-left: -80px;
+    margin-top: -55px;
+    padding: 1em;
+    grid-column: 2/3;
+}
+
+/* nav */
+
+nav {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #00B9AE;
+    text-align: center;
+    align-self: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+	margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #12130F;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    background-color:  #037171;
+    color: white;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul li a:active{
+    background-color:  #EE655E;
+    color: white;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background: transparent;
+    border: none;
+    color: #037171;
+    font-size: 18px;
+    padding: .5em;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+#active_page {
+    color: #EE655E;
+}
+
+/* main*/
+
+main {
+    padding: 1em;
+
+}
+
+.main_content {
+    margin: 10px;
+    padding: .5em;
+}
+
+#main_image {
+    margin: 10px auto;
+    position: relative;
+    border:none;
+}
+
+#wsummary {
+    background-color: #037171;
+    opacity: .7;
+    max-width: 50%;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    padding: 1.2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#img1 {
+    max-width: 100%;
+    margin: auto;
+}
+
+.column_a {
+    color: white;
+}
+
+.column_b {
+    color: #EE655E; 
+}
+
+#forecast {
+    display: none;
+}
+
+
+
+h3 {
+    line-height: 2em;
+}
+
+#article {
+    background-color: lightgrey;
+    padding: 2em;
+    line-height: 25px;
+}
+
+h4{
+    font-size: 28px;
+}
+
+#article-img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+}
+
+#contact {
+    background-color: lightgrey;
+    padding: 1em;
+    text-align: center;
+}
+
+#map {
+    display: none;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+footer a:visited {
+    color: yellow;
+}
