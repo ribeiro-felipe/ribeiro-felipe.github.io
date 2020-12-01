@@ -5,13 +5,14 @@
  }
  
  .town-card .town-title {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 0;
     color: white;
  }
  
  .town-card .town-motto {
     font-size: 0.8em;
+    padding-top:.5em;
     font-style: italic;
     margin: 0;
     color: white;
@@ -27,7 +28,7 @@
  .town-card ul.town-info-items li {
     margin: 0;
     text-align: left;
-    font-size: 1em;
+    font-size: .8em;
     padding: 3px 0;
  }
  

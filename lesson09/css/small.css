@@ -114,6 +114,12 @@ nav ul.hide {
 }
 
 
+h3 {
+    /* text-align: center; */
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
 /* footer */
 
 footer {
