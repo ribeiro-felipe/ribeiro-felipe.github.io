@@ -124,3 +124,24 @@ h2 {
     text-align: center;
     padding-bottom: 2em;
 }
+
+.emphasis {
+    color:#EE655E;
+}
+
+.article {
+    background-color: rgb(212, 207, 207);
+    padding: 1em;
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.article h3 {
+    font-size: 22px;
+}
+
+.article img {
+    display: flex;
+    max-width: 60%;
+    padding: 1em;
+}

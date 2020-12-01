@@ -19,7 +19,7 @@ fetch(townDataUrl)
                          </ul>
                         </div>
                         <div class="town-image">
-                          <img src="images/${town.photo}" alt="${town.name + ' ' + town.motto}">
+                          <img src="img/HomeImgs/${town.photo}" alt="${town.name + ' ' + town.motto}">
                         </div>
                        </div> <!-- end town-summary -->
                      `;
