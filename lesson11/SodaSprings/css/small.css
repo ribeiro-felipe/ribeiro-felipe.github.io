@@ -183,13 +183,13 @@ h3 {
 }
 
 #article {
-    background-color: lightgrey;
+    background-color: rgb(221, 216, 216);
     padding: 2em;
     line-height: 25px;
 }
 
 h4{
-    font-size: 28px;
+    font-size: 22px;
 }
 
 #article-img {
@@ -201,7 +201,7 @@ h4{
 }
 
 #contact {
-    background-color: lightgrey;
+    background-color: rgb(221, 216, 216);
     padding: 1em;
     text-align: center;
 }
