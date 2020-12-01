@@ -1,0 +1,92 @@
+@media only screen and (min-width: 560px) {
+    main { 
+        padding: 2em;
+        padding-top: 2em;
+    }
+ 
+    nav ul {
+    display: flex;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+    flex: 1 1 100%;
+    }
+  
+    .weather-summary {
+        background-color: #037171;
+        opacity: .8;
+        max-width: 50%;
+        position: absolute;
+        top: 232px;
+        left: 100px;
+        padding: 1.2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+
+
+
+#map {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+}
+
+footer {
+    padding: 3em;
+}
+
+
+.five-day {
+    display: block;
+ }
+
+ .five-day-forecast {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 2em;
+ }
+
+ .five-day-forecast-item {
+    border: 3px solid teal;
+    text-align: center;
+ }
+
+ .five-day-forecast-heading {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 0;
+ }
+
+ .five-day-forecast-content {
+    font-weight: bold;
+ }
+
+ .five-day-forecast-content img {
+    width: 100%;
+    min-width: 100px;
+    min-height: 75px;
+ }
+
+ .five-day-forecast-content p {
+    margin: 0;
+    padding: 1em;
+    
+ }
+}
+
+
+

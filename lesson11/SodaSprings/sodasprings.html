@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Weather Preston Page">
+    <link rel="shortcut icon" href="/lesson05/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson10/lesson10-preston/css/normalize.css">
+    <link rel="stylesheet" href="/lesson10/lesson10-preston/css/small.css">
+    <link rel="stylesheet" href="/lesson10/lesson10-preston/css/medium.css">
+    <link rel="stylesheet" href="/lesson10/lesson10-preston/css/large.css">
+    <title>Smart Weather | Preston</title>
+</head>
+<body>
+    <aside id="banner-announcement" class="banner-announcement">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+           park pavilion.</p>
+        </aside>
+    <header>
+        <img src="/lesson10/lesson10-preston/img/icon.png" alt="Smart Weather Logo" id="logo">
+        <h1>SMART WEATHER</h1>
+        <p id="motto_phrase">Modern for you!</p>
+    </header>
+           <nav>
+               <button onclick="toggleMenu()">&#9776; Menu</button>
+               <ul id="primaryNav" class="hide">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#" id="active_page">Preston</a></li>
+                   <li><a href="#">Soda Springs</a></li>
+                   <li><a href="#">Fish Haven</a></li>
+                   <li><a href="#">Storm Center</a></li>
+                   <li><a href="#">Gallery</a></li>
+               </ul>
+           </nav>
+
+       <main>
+        <h2>Preston Idaho</h2>
+        <div class="main_content">
+            <div class="main_image">
+                <picture>
+                    <img src="/lesson10/lesson10-preston/img/div_imgs/les-anderson-l28mbIMyISY-unsplash.jpg" alt="Image of Preston, Idaho." id="img1">
+                </picture>
+                <section class='weather-summary'>
+                    <h2>Weather Summary</h2>
+                    <div class='flex-container'>
+                       <div class='weather-summary-labels'>
+                          <p>Currently:</p>
+                          <p>High:</p>
+                          <p>Wind Chill:</p>
+                          <p>Humidity:</p>
+                          <p>Wind Speed:</p>
+                       </div>
+                       <div class='weather-summary-answers'>
+                          <p><span id="weather-summary-currently">not available</span></p>
+                          <p><span id="high-temperature">not available</span></p>
+                          <p><span id="wind-chill">not available</span></p>
+                          <p><span id="weather-summary-humidity">not available</span></p>
+                          <p><span id="wind-speed">not available</span></p>
+                       </div>
+                    </div>
+                 </section>
+              </div>
+
+
+
+        <section class="five-day">
+            <h3>Weather Forecast</h3>
+            <div class="five-day-forecast">
+               <div class="five-day-forecast-item">
+                  <div class="five-day-forecast-heading">Wednesday</div>
+                  <div class="five-day-forecast-content">
+                     <img src="images/placeholder-icon.png" alt="no weather data found">
+                     <p id="five-day-temp-0">N/A</p>
+                  </div>
+               </div>
+               <div class="five-day-forecast-item">
+                  <div class="five-day-forecast-heading">Thursday</div>
+                  <div class="five-day-forecast-content">
+                     <img src="images/placeholder-icon.png" alt="no weather data found">
+                     <p id="five-day-temp-1">N/A</p>
+                  </div>
+               </div>
+               <div class="five-day-forecast-item">
+                  <div class="five-day-forecast-heading">Friday</div>
+                  <div class="five-day-forecast-content">
+                     <img src="images/placeholder-icon.png" alt="no weather data found">
+                     <p id="five-day-temp-2">N/A</p>
+                  </div>
+               </div>
+               <div class="five-day-forecast-item">
+                  <div class="five-day-forecast-heading">Saturday</div>
+                  <div class="five-day-forecast-content">
+                     <img src="images/placeholder-icon.png" alt="no weather data found">
+                     <p id="five-day-temp-3">N/A</p>
+                  </div>
+               </div>
+               <div class="five-day-forecast-item">
+                  <div class="five-day-forecast-heading">Sunday</div>
+                  <div class="five-day-forecast-content">
+                     <img src="images/placeholder-icon.png" alt="no weather data found">
+                     <p id="five-day-temp-4">N/A</p>
+                  </div>
+               </div>
+            </div>
+         </section> 
+        
+
+            <div class="main_content">
+                <div id="article">
+                <h4>Climate Change Could Mean Fewer Sunny Days for Hot Regions</h4>
+                <br>
+                <p>By Princeton University</p>
+                <img src="/lesson10/lesson10-preston/img/div_imgs/vlad-panov-n73LEblh1mE-unsplash.jpg" alt="" id="article-img">
+                <p>Princeton-based researchers recently published in the journal Nature Communications the first study to assess the day-to-day reliability of solar energy under climate change. The team used satellite data and climate models to project how sunlight reaching the ground would be affected as warmer global temperatures alter the dynamics and consistency of Earth's atmosphere.</p>
+                <p>Their study found that higher surface temperatures -- and the resulting increase in the amount of moisture, aerosols and particulates in the atmosphere -- may result in an overall decrease in solar radiation and an uptick in the number of cloudy days. Hot, arid regions such as the Middle East and the American Southwest -- considered among the highest potential producers of solar energy -- were most susceptible to greater fluctuations in sunlight, the researchers found.</p>
+                <p>To follow up on their work, the researchers plan to examine climate persistency -- specifically, the number of consecutive sunny or cloudy days -- which is important for solar power. They also are exploring how clouds could affect the effectiveness of tree planting as a climate mitigation strategy. Trees absorb not only carbon dioxide but also solar energy, which would raise surface temperatures. A resulting increase in cloud coverage could change current estimates of how effective trees would be in reducing atmospheric carbon.</p>
+                </div>
+            </div>
+            <div class="main_content">
+                <div id="contact">
+                    <h3>Contact Information</h3>
+                    <img src="/lesson10/lesson10-preston/map.jpg" alt="" id="map">
+                <br>
+                <p>Email: smartweather@smweather.com</p>
+                <p>Phone: (208) 378-4589</p>
+                </div>
+                
+            </div>
+       </main>
+
+       <footer>
+        <div class="footer-section">
+            &copy;<span id="year"></span> Felipe Ribeiro | Idaho | <a id="footer-link"
+                href="https://www.byui.edu/">BYU-I Online
+                Learning</a><br><span id="last-updated"><span id="current-date"></span></span>
+        </div>
+    </footer>
+    <script src="js/current-date.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/hamburger-menu.js"></script>
+    <script src="js/weather-summary.js"></script>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+       WebFont.load({
+   google: {
+     families: ['Merriweather Sans']
+   }
+ })
+    </script>
+</body>
+</html>
