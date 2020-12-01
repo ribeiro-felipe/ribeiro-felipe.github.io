@@ -193,11 +193,12 @@ h4{
 }
 
 #article-img {
-    width: 80%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: .5em;
+    padding: 1em;
+    float: left;
 }
 
 #contact {
