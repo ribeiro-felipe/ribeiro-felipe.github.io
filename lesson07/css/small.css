@@ -11,6 +11,20 @@ footer {
     
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;;
+    font-size: 18px;
+}
+
 header {
     display: grid;
     grid-template-columns: 180px 1fr;

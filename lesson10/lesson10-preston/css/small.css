@@ -1,6 +1,5 @@
 * {
     margin: 0 auto;
-    font-family: 'Merriweather Sans', sans-serif
 }
 
 header, 
@@ -10,6 +9,21 @@ footer {
     color: white;
     
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 18px;
+}
+
 
 header {
     display: grid;
@@ -117,6 +131,11 @@ main {
     border:none;
 }
 
+h3{
+    font-size: 22px;
+    color: #037171;
+}
+
 .flex-container {
     display: flex;
 }
@@ -189,7 +208,7 @@ h3 {
 }
 
 h4{
-    font-size: 28px;
+    font-size: 22px;
 }
 
 #article-img {
@@ -197,7 +216,7 @@ h4{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: .5em;
+    padding: 1em;
 }
 
 #contact {

@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    font-family: 'Merriweather Sans', sans-serif
+    /* font-family: 'Merriweather Sans', sans-serif; */
 }
 
 header, 
@@ -9,6 +9,20 @@ footer {
     background-color: #037171;
     color: white;
     
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 18px;
 }
 
 header {
@@ -117,7 +131,7 @@ footer a:visited {
 #main-div {
     background-color: rgb(212, 207, 207);
     padding: 1em;
-    line-height: 2em;
+    /* line-height: .5em; */
 }
 
 h2 {
@@ -131,8 +145,8 @@ h2 {
 
 .article {
     background-color: rgb(212, 207, 207);
-    padding: 1em;
-    line-height: 2em;
+    padding: 2em;
+    line-height: 1.5em;
     margin-bottom: 2em;
 }
 
