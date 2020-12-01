@@ -1,5 +1,6 @@
 * {
-    margin: 0 auto;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 h1,
@@ -38,7 +39,6 @@ h1 {
     padding: .5em;
     margin-left: -80px;
     font-size: 24px;
-    
 }
 
 #motto_phrase {
@@ -122,76 +122,4 @@ footer {
 
 footer a:visited {
     color: yellow;
-}
-
-
-/*form*/
-
-.page-form {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-}
-
-form {
-    display: grid;
-    grid-column: 2/3;
-}
-
-form fieldset {
-    margin: 1rem 10px;
-    border: 1px solid  #037171;
-    border-radius: 8px;
-    color:  #037171;
-}
-
-.form-field {
-    padding: .8em;
-}
-
-form label.top input:required {
-    border-left: red solid 4px;
-}
-
-form label.top input:required:valid {
-    border-left: green solid 4px;
-}
-
-form label.top {
-    display: block;
-    padding: 1rem;
-    color: black;
-}
-
-form label.top input, form label.top select {
-    display: block;
-    border: solid 2px #037171;
-    border-radius: 8px;
-    padding: .5rem;
-    width: 95%;
-    max-width: 95%;
-    background-color: #cee7e7;
-    color: #037171;
-}
-
-form label.sbs {
-    display: inline;
-    padding: 2em;
-}
-
-#danger-heading {
-    padding: 1em;
-    color: black;
-    margin-left: .5rem;
-}
-
-form input.report-button {
-    display: block;
-    border: none;
-    border-radius: .8rem;
-    background-color:#EE655E;
-    color: white;
-    padding: 1em;
-    width: 30%;
-    margin-left: 10em;
-    margin-bottom: 3em;
 }
