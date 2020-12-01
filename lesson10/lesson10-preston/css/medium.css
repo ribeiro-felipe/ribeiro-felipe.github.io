@@ -72,4 +72,51 @@ footer {
 }
 
 
+
+
+
+
+.five-day {
+    display: block;
+ }
+
+ .five-day-forecast {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+ }
+
+ .five-day-forecast-item {
+    border: 3px solid teal;
+    text-align: center;
+ }
+
+ .five-day-forecast-heading {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 0;
+ }
+
+ .five-day-forecast-content {
+    font-weight: bold;
+ }
+
+ .five-day-forecast-content img {
+    width: 100%;
+    min-width: 100px;
+    min-height: 75px;
+    padding: 0.5em;
+    margin-top: 5px;
+
+ }
+
+ .five-day-forecast-content p {
+    margin: 0;
+    padding: 0 0 0.5em;
+ }
 }
+
+
+

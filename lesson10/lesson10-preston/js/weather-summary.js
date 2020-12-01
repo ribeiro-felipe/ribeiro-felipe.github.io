@@ -58,7 +58,7 @@
           const dayHeadings = document.querySelectorAll('.five-day-forecast-heading');
     
           // Array to hold the day of the week names
-          const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+          const dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     
           // Loop over array of forecast data looking for only the 18:00:00 forecasts
           let day = 0; // the day we are currently on 0-4

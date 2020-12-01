@@ -135,9 +135,6 @@ main {
     padding: 0.8rem;
  }
 
- /* .weather-summary {
-     display: block;
- } */
 
  .weather-summary h2 {
     color: #12130F;
@@ -175,10 +172,9 @@ main {
     max-width: 100%;
 }
  
-
-#forecast {
+.five-day {
     display: none;
-}
+ }
 
 
 
