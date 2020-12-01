@@ -96,8 +96,7 @@ nav ul.hide {
 }
 
 #active_page {
-    text-decoration: overline;
-    text-decoration-color:  #EE655E;
+    color: white;
 }
 
 
