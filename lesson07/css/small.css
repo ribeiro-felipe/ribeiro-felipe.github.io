@@ -152,6 +152,8 @@ footer a:visited {
     width: 100%;
 }
 
-section h1 {
+h2 {
     text-align: center;
+    padding: 1em;
+    padding-top: 1.5em;
 }
