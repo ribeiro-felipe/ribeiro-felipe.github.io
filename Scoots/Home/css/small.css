@@ -1,9 +1,9 @@
 
 /*nav*/
 #logo {
-    max-width: 65%;
+    width: 30%;
     margin-top: 7px;
-    padding: 1em 1em 1em 6em;
+    padding: 1em 1em 1em 8.5em;
 }
 nav {
     font-family: 'Baloo 2', cursive;
@@ -27,7 +27,6 @@ nav ul li a {
 nav ul li a:hover{
     background-color:#583895;
     color: white;
-    box-shadow: 0 2px 15px gray;
 }
 nav ul li a:active{
     background-color:#583895;
