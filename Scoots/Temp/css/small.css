@@ -1,23 +1,14 @@
 
-header{
-    /* display: inline-block; */
-}
 #logo {
     max-width: 25px;
     margin-top: 5px;
-    padding: 1em;
-}
-header div p{
-    font-family: 'Bahianita', cursive;
-    font-size: 42px;
-    color: #583895;
-    float: right;
-    marigin-top: -1em;
+    padding: 1em 1em 1em 6em;
 }
 nav {
     font-family: 'Baloo 2', cursive;
     font-weight: bold;
     color: #583895;
+    text-align: center;
 }
 nav ul {
     list-style-type: none;
@@ -43,6 +34,7 @@ nav ul li a:active{
     opacity: 0.8;
 }
 nav button {
+    margin: auto;
     margin: .2rem 2%;
     background: transparent;
     border: none;
