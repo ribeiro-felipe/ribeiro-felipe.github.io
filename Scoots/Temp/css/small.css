@@ -1,0 +1,78 @@
+
+header{
+    /* display: inline-block; */
+}
+#logo {
+    max-width: 25px;
+    margin-top: 5px;
+    padding: 1em;
+}
+header div p{
+    font-family: 'Bahianita', cursive;
+    font-size: 42px;
+    color: #583895;
+    float: right;
+    marigin-top: -1em;
+}
+nav {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    color: #583895;
+}
+nav ul {
+    list-style-type: none;
+	margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+nav ul li a {
+    display: block;
+    color: #583895;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:#583895;
+    color: white;
+    box-shadow: 0 2px 15px gray;
+}
+nav ul li a:active{
+    background-color:#583895;
+    color: white;
+    opacity: 0.8;
+}
+nav button {
+    margin: .2rem 2%;
+    background: transparent;
+    border: none;
+    color: #583895;
+    padding: .5em;
+}
+nav ul.hide {
+    display: none;
+}
+#active_page {
+    color: #f8ed44;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+    background-color: #583895;
+    color: white;
+}
+footer div{
+    padding: 1.2em;
+}
+footer div p{
+    display: inline-block;
+}
+.social-media-footer {
+    padding: 1em;
+    float: right;
+}
+#footer-info{
+    padding-bottom: 2em;
+    text-align: center;
+} 
