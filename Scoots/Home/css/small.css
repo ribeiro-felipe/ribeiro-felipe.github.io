@@ -1,3 +1,4 @@
+
 /*nav*/
 #logo {
     max-width: 25px;
@@ -45,13 +46,39 @@ nav ul.hide {
     display: none;
 }
 #active_page {
-    color: #f8ed44;
+    color: #583895;
+    opacity: 0.5;
 }
-/*main*/
+
+
+
+/*body*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
-/*footer*/
+#home-img{
+    width: 100%;
+}
+.text-wrapper{
+    position: relative;
+    margin-top: -30px;
+}
+.text-wrapper p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-shadow: black 1px 2px 3px;
+}
+.button-wrapper {
+    text-align: center;
+    padding: 3em;
+}
+.button-wrapper button{
+    padding: .8em 7em .8em 7em;
+}
+
+/*footer*/    
 footer{
     background-color: #583895;
     color: white;

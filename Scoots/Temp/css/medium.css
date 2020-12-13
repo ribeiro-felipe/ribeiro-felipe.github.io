@@ -9,7 +9,14 @@
         display: none;
     }
     nav ul {
-        padding-right: 16em;
-        padding-left: 16em;
+        display:flex;
+        padding-right: 6em;
+        padding-left: 6em;
+    }
+    nav ul li a{
+        padding: 2em 1em 2em 1em;
+    }
+    nav {
+        margin:auto;
     }
 }
