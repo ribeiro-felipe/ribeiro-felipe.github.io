@@ -76,6 +76,15 @@ body {
 .button-wrapper button{
     padding: .8em 7em .8em 7em;
 }
+.thanks-p {
+    text-align: center;
+    font-weight: bold;
+    color: #583895;
+}
+.thanks-div{
+    padding:5em;
+    padding-bottom:12em;
+}
 
 /*footer*/    
 footer{

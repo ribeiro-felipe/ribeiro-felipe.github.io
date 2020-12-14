@@ -30,4 +30,8 @@
     .weather-summary{
         margin-top: .8em;
     }
+    .thanks-div{
+        padding:10em;
+        padding-bottom:14em;
+    }
 }
