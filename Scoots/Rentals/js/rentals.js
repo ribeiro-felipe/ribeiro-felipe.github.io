@@ -12,7 +12,8 @@ fetch(requestURL)
         let h2 = document.createElement('h2');
         let p_one = document.createElement('p');
         let p_two = document.createElement("p");
-        let image = document.createElement("img");
+        let p_three = document.createElement("p");
+        // let image = document.createElement("img");
 
         h2.textContent = rentals[i].name;
 
@@ -22,14 +23,18 @@ fetch(requestURL)
 
         card.append(p_one);
 
-        p_two.textContent = "Place of Birth: " + prophets[i].birthplace;
+        p_two.textContent = "Reservation";
 
         card.append(p_two);
 
-        image.setAttribute("src", prophets[i].imageurl);
-        image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
+        p_three.textContent = "Half Day: " + rentals[i].rhalfday;
 
-        card.append(image);
+        card.append(p_three);
+
+        // image.setAttribute("src", prophets[i].imageurl);
+        // image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
+
+        // card.append(image);
 
         document.querySelector('div.cards').appendChild(card);
     } // temporary checking for valid response and data parsing

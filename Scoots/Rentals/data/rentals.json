@@ -3,14 +3,10 @@
         {
             "name": "Honda Metropolitan",
             "capacity": 1,
-            "reservation": {
-                "halfday": 20,
-                "fullday": 30
-            },
-            "walkin": {
-                "halfday": 25,
-                "fullday": 35
-            }
+            "rhalfday": 20,
+            "rfullday": 30,
+            "whalfday": 25,
+            "wfullday": 35
         },
         {
             "name": "Honda Dio",
