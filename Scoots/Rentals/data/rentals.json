@@ -6,7 +6,8 @@
             "rhalfday": 20,
             "rfullday": 30,
             "whalfday": 25,
-            "wfullday": 35
+            "wfullday": 35,
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/logo2.png"
         },
         {
             "name": "Honda Dio",
