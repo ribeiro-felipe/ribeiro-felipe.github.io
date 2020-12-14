@@ -18,6 +18,11 @@ fetch(requestURL)
         let p_five = document.createElement("p");
 
 
+        image.setAttribute("src", rentals[i].imgurl);
+        image.setAttribute("alt", rentals[i].name);
+
+        card.append(image);
+
         h2.textContent = rentals[i].name;
 
         card.appendChild(h2);
@@ -41,11 +46,6 @@ fetch(requestURL)
         p_five.textContent = "Half Day: $" + rentals[i].whalfday + " / Full Day: $" + rentals[i].wfullday;
 
         card.append(p_five);
-
-        image.setAttribute("src", rentals[i].imgurl);
-        image.setAttribute("alt", rentals[i].name);
-
-        card.append(image);
 
         document.querySelector('div.cards').appendChild(card);
     }
