@@ -44,10 +44,8 @@
             "name": "Jeep Wrangler - 4 door",
             "capacity": 4,
             "reservation": {
-                "halfday": 70,
-                "fullday": 100
-            },
-            "walkin": {
+                "rhalfday": 70,
+                "rfullday": 100,
                 "halfday": 85,
                 "fullday": 125
             }
