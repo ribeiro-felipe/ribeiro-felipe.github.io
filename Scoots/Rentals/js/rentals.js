@@ -13,6 +13,8 @@ fetch(requestURL)
         let p_one = document.createElement('p');
         let p_two = document.createElement("p");
         let p_three = document.createElement("p");
+        let p_four = document.createElement("p");
+        let p_five = document.createElement("p");
         // let image = document.createElement("img");
 
         h2.textContent = rentals[i].name;
@@ -31,11 +33,19 @@ fetch(requestURL)
 
         card.append(p_three);
 
+        p_four.textContent = "Walk-In";
+
+        card.append(p_four);
+
+        p_five.textContent = "Half Day: $" + rentals[i].whalfday + " / Full Day: $" + rentals[i].wfullday;
+
+        card.append(p_five);
+
         // image.setAttribute("src", prophets[i].imageurl);
         // image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
 
         // card.append(image);
 
         document.querySelector('div.cards').appendChild(card);
-    } // temporary checking for valid response and data parsing
+    }
 });
