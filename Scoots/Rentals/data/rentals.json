@@ -37,7 +37,7 @@
                 "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondapioneer.jpg"
         },
         {
-            "name": "Jeep Wrangler - 2 door",
+            "name": "Jeep Wrangler 2 doors",
             "capacity": 2,
                 "rhalfday": 60,
                 "rfullday": 85,
@@ -46,7 +46,7 @@
                 "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep2.jpg"
         },
         {
-            "name": "Jeep Wrangler - 4 door",
+            "name": "Jeep Wrangler 4 doors",
             "capacity": 4,
             "reservation": {
                 "rhalfday": 70,
