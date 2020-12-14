@@ -15,7 +15,7 @@ fetch(requestURL)
         let p_three = document.createElement("p");
         let p_four = document.createElement("p");
         let p_five = document.createElement("p");
-        // let image = document.createElement("img");
+        let image = document.createElement("img");
 
         h2.textContent = rentals[i].name;
 
@@ -41,8 +41,8 @@ fetch(requestURL)
 
         card.append(p_five);
 
-        // image.setAttribute("src", prophets[i].imageurl);
-        // image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
+        image.setAttribute("src", );
+        image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
 
         // card.append(image);
 
