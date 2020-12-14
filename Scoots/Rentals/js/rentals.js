@@ -8,6 +8,7 @@ fetch(requestURL)
     console.table(jsonObject);
     const rentals = jsonObject['rentals'];
     for (let i = 0; i < rentals.length; i++) {
+        let image = document.createElement("img");
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let p_one = document.createElement('p');
@@ -15,7 +16,7 @@ fetch(requestURL)
         let p_three = document.createElement("p");
         let p_four = document.createElement("p");
         let p_five = document.createElement("p");
-        let image = document.createElement("img");
+
 
         h2.textContent = rentals[i].name;
 
@@ -42,7 +43,7 @@ fetch(requestURL)
         card.append(p_five);
 
         image.setAttribute("src", rentals[i].imgurl);
-        // image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
+        image.setAttribute("alt", rentals[i].name);
 
         card.append(image);
 
