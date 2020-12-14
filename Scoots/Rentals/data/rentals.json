@@ -11,50 +11,34 @@
         {
             "name": "Honda Dio",
             "capacity": 2,
-            "reservation": {
-                "halfday": 30,
-                "fullday": 40
-            },
-            "walkin": {
-                "halfday": 35,
-                "fullday": 45
-            }
+                "rhalfday": 30,
+                "rfullday": 40,
+                "whalfday": 35,
+                "wfullday": 45
         },
         {
             "name":"Honda PCX150",
             "capacity": 2,
-            "reservation": {
-                "halfday": 40,
-                "fullday": 40
-            },
-            "walkin": {
-                "halfday": 45,
-                "fullday": 55
-            }
+                "rhalfday": 40,
+                "rfullday": 40,
+                "whalfday": 45,
+                "wfullday": 55
         },
         {
             "name":"Honda Pioneer 1000",
             "capacity": 4,
-            "reservation": {
-                "halfday": 50,
-                "fullday": 70
-            },
-            "walkin": {
-                "halfday": 60,
-                "fullday": 70
-            }
+                "rhalfday": 50,
+                "rfullday": 70,
+                "whalfday": 60,
+                "wfullday": 70
         },
         {
             "name": "Jeep Wrangler - 2 door",
             "capacity": 2,
-            "reservation": {
-                "halfday": 60,
-                "fullday": 85
-            },
-            "walkin": {
-                "halfday": 70,
-                "fullday": 90
-            }
+                "rhalfday": 60,
+                "rfullday": 85,
+                "whalfday": 70,
+                "wfullday": 90
         },
         {
             "name": "Jeep Wrangler - 4 door",

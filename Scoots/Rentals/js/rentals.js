@@ -27,7 +27,7 @@ fetch(requestURL)
 
         card.append(p_two);
 
-        p_three.textContent = "Half Day: " + rentals[i].rhalfday;
+        p_three.textContent = "Half Day: $" + rentals[i].rhalfday;
 
         card.append(p_three);
 
