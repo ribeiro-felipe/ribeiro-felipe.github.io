@@ -12,47 +12,47 @@
         {
             "name": "Honda Dio",
             "capacity": 2,
-                "rhalfday": 30,
-                "rfullday": 40,
-                "whalfday": 35,
-                "wfullday": 45,
-                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondadio.jpg"
+            "rhalfday": 30,
+            "rfullday": 40,
+            "whalfday": 35,
+            "wfullday": 45,
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondadio.jpg"
         },
         {
             "name":"Honda PCX150",
             "capacity": 2,
-                "rhalfday": 40,
-                "rfullday": 40,
-                "whalfday": 45,
-                "wfullday": 55,
-                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondaPCX150.jpg"
+            "rhalfday": 40,
+            "rfullday": 40,
+            "whalfday": 45,
+            "wfullday": 55,
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondaPCX150.jpg"
         },
         {
             "name":"Honda Pioneer 1000",
             "capacity": 4,
-                "rhalfday": 50,
-                "rfullday": 70,
-                "whalfday": 60,
-                "wfullday": 70,
-                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondapioneer.jpg"
+            "rhalfday": 50,
+            "rfullday": 70,
+            "whalfday": 60,
+            "wfullday": 70,
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondapioneer.jpg"
         },
         {
             "name": "Jeep Wrangler 2 Doors",
             "capacity": 2,
-                "rhalfday": 60,
-                "rfullday": 85,
-                "whalfday": 70,
-                "wfullday": 90,
-                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep2.jpg"
+            "rhalfday": 60,
+            "rfullday": 85,
+            "whalfday": 70,
+            "wfullday": 90,
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep2.jpg"
         },
         {
             "name": "Jeep Wrangler 4 Doors",
             "capacity": 4,
-                "rhalfday": 70,
-                "rfullday": 100,
-                "whalfday": 85,
-                "wfullday": 125,
-                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep4.jpg"
+            "rhalfday": 70,
+            "rfullday": 100,
+            "whalfday": 85,
+            "wfullday": 125,
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep4.jpg"
            }
     ]
 }
