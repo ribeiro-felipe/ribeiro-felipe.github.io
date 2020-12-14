@@ -51,8 +51,8 @@
             "reservation": {
                 "rhalfday": 70,
                 "rfullday": 100,
-                "halfday": 85,
-                "fullday": 125,
+                "whalfday": 85,
+                "wfullday": 125,
                 "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep4.jpg"
             }
         }
