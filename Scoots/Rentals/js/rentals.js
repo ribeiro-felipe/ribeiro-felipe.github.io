@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://ribeiro-felipe.github.io/Scoots/Rentals/data/rentals.json';
 
 fetch(requestURL)
 .then(function (response) {
@@ -6,19 +6,19 @@ fetch(requestURL)
 })
 .then(function (jsonObject) {
     console.table(jsonObject);
-    const prophets = jsonObject['prophets'];
-    for (let i = 0; i < prophets.length; i++) {
+    const rentals = jsonObject['rentals'];
+    for (let i = 0; i < rentals.length; i++) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let p_one = document.createElement('p');
         let p_two = document.createElement("p");
         let image = document.createElement("img");
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+        h2.textContent = rentals[i].name;
 
         card.appendChild(h2);
 
-        p_one.textContent = "Date of Birth: " + prophets[i].birthdate;
+        p_one.textContent = "Capacity: " + rentals[i].capacity;
 
         card.append(p_one);
 
