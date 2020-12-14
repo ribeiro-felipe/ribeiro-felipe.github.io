@@ -77,6 +77,33 @@ body {
     padding: .8em 7em .8em 7em;
 }
 
+
+
+h2 {
+    color: #583895;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    font-size: 32px;
+}
+section { 
+    background-color: white;
+    border: 2px solid #583895;
+    border-radius: 20px;
+    color: #583895;
+    text-align: center;
+}
+.cards-img {
+    max-width: 50%;
+    padding: 1em;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    padding: 1em;
+}
+
+
 /*footer*/    
 footer{
     background-color: #583895;

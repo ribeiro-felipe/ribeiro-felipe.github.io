@@ -20,6 +20,7 @@ fetch(requestURL)
 
         image.setAttribute("src", rentals[i].imgurl);
         image.setAttribute("alt", rentals[i].name);
+        image.setAttribute("class", "cards-img");
 
         card.append(image);
 
