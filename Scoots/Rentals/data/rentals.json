@@ -7,7 +7,7 @@
             "rfullday": 30,
             "whalfday": 25,
             "wfullday": 35,
-            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/logo2.png"
+            "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondametropolitan.jpg"
         },
         {
             "name": "Honda Dio",
@@ -15,7 +15,8 @@
                 "rhalfday": 30,
                 "rfullday": 40,
                 "whalfday": 35,
-                "wfullday": 45
+                "wfullday": 45,
+                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondadio.jpg"
         },
         {
             "name":"Honda PCX150",
@@ -23,7 +24,8 @@
                 "rhalfday": 40,
                 "rfullday": 40,
                 "whalfday": 45,
-                "wfullday": 55
+                "wfullday": 55,
+                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondapcx150.jpg"
         },
         {
             "name":"Honda Pioneer 1000",
@@ -31,7 +33,8 @@
                 "rhalfday": 50,
                 "rfullday": 70,
                 "whalfday": 60,
-                "wfullday": 70
+                "wfullday": 70,
+                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/hondapioneer.jpg"
         },
         {
             "name": "Jeep Wrangler - 2 door",
@@ -39,7 +42,8 @@
                 "rhalfday": 60,
                 "rfullday": 85,
                 "whalfday": 70,
-                "wfullday": 90
+                "wfullday": 90,
+                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep2.jpg"
         },
         {
             "name": "Jeep Wrangler - 4 door",
@@ -48,7 +52,8 @@
                 "rhalfday": 70,
                 "rfullday": 100,
                 "halfday": 85,
-                "fullday": 125
+                "fullday": 125,
+                "imgurl": "https://ribeiro-felipe.github.io/Scoots/Rentals/data/jeep4.jpg"
             }
         }
     ]

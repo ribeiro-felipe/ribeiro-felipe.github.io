@@ -41,10 +41,10 @@ fetch(requestURL)
 
         card.append(p_five);
 
-        image.setAttribute("src", );
-        image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
+        image.setAttribute("src", rentals[i].imgurl);
+        // image.setAttribute("alt", prophets[i].name + " - " + [i + 1]);
 
-        // card.append(image);
+        card.append(image);
 
         document.querySelector('div.cards').appendChild(card);
     }
