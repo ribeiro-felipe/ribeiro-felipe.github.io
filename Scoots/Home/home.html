@@ -51,46 +51,64 @@
         <!-- weather conditions -->
         <div class="content-wrapper2">
             <h3>Weather Summary</h3>
-        <div class=weather-summary>
-            <div>
-                <p>Temperature:</p> <p><span id="temperature"></span></p>
-                <p>Feels Like:</p> <p><span id="feelslike"></span></p>
-                <p>Currenlty:</p> <p><span id="description"></span></p>
-                <p>Humidity:</p> <p><span id="humidity"></span></p>
-            </div>
-        </div>
 
 
-
-        <!-- <section class='weather-summary'>
-            <h2>Weather Summary</h2>
-            <div class='flex-container'>
-               <div class='weather-summary-labels'>
-                  <p>Currently:</p>
-                  <p>High:</p>
-                  <p>Wind Chill:</p>
-                  <p>Humidity:</p>
-                  <p>Wind Speed:</p>
-               </div>
-               <div class='weather-summary-answers'>
-                  <p><span id="weather-summary-currently">not available</span></p>
-                  <p><span id="high-temperature">not available</span></p>
-                  <p><span id="wind-chill">not available</span></p>
-                  <p><span id="weather-summary-humidity">not available</span></p>
-                  <p><span id="wind-speed">not available</span></p>
-               </div>
-            </div>
-         </section> -->
-
+        <div class="weather-summary">
+        <table>
+            <tr>
+              <th>Temperature:</th>
+              <td><span id="temperature"></span></td> 
+            </tr>
+            <tr>
+                <td>Feels Like:</td>
+                <td><span id="feelslike"></span></td> 
+              </tr>
+              <tr>
+                <td>Currently:</td>
+                <td><span id="description"></span></td> 
+              </tr>
+              <tr>
+                <td>Humidity:</td>
+                <td><span id="humidity"></span></td> 
+              </tr>
+          </table>
+          </div>
 
 
         <!-- weather forecast -->
-        <div class=forecast>
-            <h3>Weather Forecast</h3>
+         <h3>Weather Forecast</h3>
+         <div class="forecast">
+            <div class="forecast-day">
+               <div class="dow"></div>
+               <div class="temp"></div>
+            </div>
+            <div class="forecast-day">
+               <div class="dow"></div>
+               <div class="temp"></div>
+            </div>
+            <div class="forecast-day">
+               <div class="dow"></div>
+               <div class="temp"></div>
+            </div>
+            <div class="forecast-day">
+               <div class="dow"></div>
+               <div class="temp"></div>
+            </div>
+            <div class="forecast-day">
+               <div class="dow"></div>
+               <div class="temp"></div>
+            </div>
+         </div>
 
 
 
-        </div>
+            <br>
+
+
+
+
+
+
         <!-- rental summary -->
         <div class="rental">
 
@@ -163,6 +181,7 @@
     <script src="js/current-date.js"></script>
     <script src="js/weather-summary.js"></script>
     <script src="js/forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
     google: {
