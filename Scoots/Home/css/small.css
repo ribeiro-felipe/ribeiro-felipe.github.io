@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Baloo 2', cursive;
+}
+
 
 /*nav*/
 #logo {
@@ -63,6 +70,14 @@ body {
     position: relative;
     margin-top: -30px;
 }
+.text-wrapper h2{
+    text-align: center;
+    width: 50%;
+    padding: 1em;
+    margin: auto;
+    color: white;
+    text-shadow: black 1px 2px 3px;
+}
 .text-wrapper p{
     text-align: center;
     width: 50%;
@@ -78,6 +93,29 @@ body {
     padding: .8em 7em .8em 7em;
 }
 
+.rental-subtitle {
+    color:c
+}
+.rental {
+    padding: 2em;
+}
+.contact {
+    background-color: #583895;
+    opacity: 0.8;
+    padding: 1.5em;
+    margin: 1em;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+}
+
+.contact a{
+    color: #e1d6f5;
+    font-weight: bold;
+    /* text-decoration: none; */
+}
+
+
 /*footer*/    
 footer{
     background-color: #583895;
@@ -90,7 +128,7 @@ footer div p{
     display: inline-block;
 }
 .social-media-footer {
-    padding: 1em;
+    padding:  0 .2em 0 .2em;
     float: right;
 }
 #footer-info{
