@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Scoots | Reservations</title>
 </head>
@@ -48,7 +49,7 @@
 
                 <form method="GET" action="deposit.html">
 
-                    <fieldset>
+                    <fieldset class="fieldset-1">
                         <div class="form-field">
                             <label class="top">Full Name <input type="text" name="fullname" pattern="(w| ){5,)" required></label>
                         </div>
@@ -119,7 +120,9 @@
                         </datalist>
                     </fieldset>
 
-                    <fieldset>
+                    <br>
+
+                    <fieldset class="fieldset-2">
                         <div class="form-field">
                             <label class="top">Pick Up Date <input type="date" name="sdate" required></label>
                         </div>
@@ -140,7 +143,10 @@
                                 </select></label>
                         </div> 
                         <label class="top">Special Accomodations / Comments</label>
-                        <textarea name="additionalinfo" rows="6" cols="44"></textarea> 
+                        <textarea name="additionalinfo" rows="10" cols="28"></textarea> 
+
+                        <br>
+
 
                         <input type="submit" value="Submit" class="report-button">
 
