@@ -27,7 +27,27 @@
         position: relative;
         margin-top: -200px;
     }
-    .weather-summary{
+    .text-wrapper p{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        color: white;
+        text-shadow: black 1px 2px 3px;
+    }
+    #pbig {
+        display: block;
+    }
+    #psmall {
+        display: none;
+    }
+    .button-wrapper {
+        text-align: center;
+        padding: 3em;
+    }
+    .button-wrapper button{
+        padding: .8em 7em .8em 7em;
+    }
+    .content-wrapper2{
         margin-top: .8em;
     }
     /*footer*/    

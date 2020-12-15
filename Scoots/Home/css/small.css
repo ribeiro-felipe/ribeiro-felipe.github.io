@@ -68,7 +68,8 @@ body {
 }
 .text-wrapper{
     position: relative;
-    margin-top: -30px;
+    /* margin-top: -30px; */
+    margin-top: -150px;
 }
 .text-wrapper h2{
     text-align: center;
@@ -82,8 +83,14 @@ body {
     text-align: center;
     width: 50%;
     margin: auto;
-    color: white;
-    text-shadow: black 1px 2px 3px;
+}
+#psmall{
+    margin-top: 80px;
+    color: #583895;
+    font-size: 24px;
+}
+#pbig{
+    display: none;
 }
 .button-wrapper {
     text-align: center;
@@ -91,7 +98,12 @@ body {
 }
 .button-wrapper button{
     padding: .8em 7em .8em 7em;
+    color: white;
+    background-color: #583895;
+    border: none;
+    border-radius: 20px
 }
+
 
 .rental-subtitle {
     color:c
@@ -114,6 +126,7 @@ body {
     font-weight: bold;
     /* text-decoration: none; */
 }
+
 
 
 /*footer*/    
