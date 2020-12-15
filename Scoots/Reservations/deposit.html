@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <title>Scoots | </title>
+    <title>Scoots | Reservations</title>
 </head>
 <body>
     <header>
@@ -24,7 +24,7 @@
             <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="hide">
                 <li><a href="/Scoots/Home/home.html" id="active_page">Home</a></li>
-                <li><a href="/">Rentals</a></li>
+                <li><a href="/Scoots/Rentals/rentals.html">Rentals</a></li>
                 <li><a href="#">Reservations</a></li>
                 <li><a href="#">Tour</a></li>
                 <li><a href="#">Contact</a></li>
@@ -35,18 +35,31 @@
     </header>
     <main>
 
-                <!-- img and button -->
-                <!-- <div class="content-wrapper">
-                    <img src="/Scoots/Home/img/hero-home.jpg" alt="People on a Jeep at the beach." id="home-img">
-                    <div class="text-wrapper">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam exercitationem aspernatur sequi natus, temporibus laudantium nulla qui ratione, commodi ipsum eos illo amet nemo voluptatum dolorum libero deserunt, veniam suscipit.</p>
-                    </div>
-                    <div class="button-wrapper">
-                        <button>Click</button>
-                    </div>
-                </div> -->
 
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <div class="form-field">
+                    <label class="top" for="type" id="vehicle" required>Account Type 
+                        <select name="vehicle" id="type">
+                            <option value="" selected disabled> </option>
+                            <option value="priority">Priority Banking</option>
+                            <option value="preferred">Preferred Banking</option>
+                            <option value="private">Private Banking</option>
+                            <option value="otdeposit">One Time Deposit</option>
+                        </select></label>
+                </div> 
 
+                <div class="form-field">
+                    <label class="top">Account Number  <input type="tel" name="phone"  placeholder="Enter Account Number"></label>
+                </div>
+
+                <div class="form-field">
+                    <label class="top">Ammount  <input type="tel" name="phone"  placeholder="--"></label>
+                    <input type="submit" value="Pay Now" class="report-button">
+                </div>
+
+            </fieldset>
+        </form>
 
     </main>
 
