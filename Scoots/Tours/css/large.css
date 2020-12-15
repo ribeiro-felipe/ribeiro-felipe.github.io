@@ -1,0 +1,21 @@
+@media only screen and (min-width: 990px) {
+    nav ul {
+        padding-right: 16em;
+        padding-left: 16em;
+    }
+    nav ul li a{
+        padding: 2em 3em 2em 3em;
+    }
+    nav ul li a:hover{
+        background-color: none;
+        color: #583895;
+        opacity: 0.5;
+    }
+    .text-wrapper{
+        position: relative;
+        margin-top: -300px;
+    }
+    .weather-summary{
+        margin-top: 10em;
+    }
+}
