@@ -1,4 +1,15 @@
 
+h2 {
+    font-family: 'Baloo 2', cursive;
+    color: #583895;
+    text-align: center;
+    font-size: 32px;
+}
+
+.wrap {
+    padding-bottom: 5em;
+}
+
 /*nav*/
 #logo {
     width: 30%;
