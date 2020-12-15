@@ -3,6 +3,7 @@
 /*nav*/
 #logo {
     width: 30%;
+    max-width: 150px;
     margin-top: 7px;
     padding: 1em 1em 1em 8.5em;
 }
