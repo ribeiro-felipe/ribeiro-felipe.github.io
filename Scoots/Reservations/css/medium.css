@@ -4,6 +4,9 @@
         margin-top: 9px;
         padding: 1em 1em 1em 6em;
     }
+    h2 {
+        font-size: 32px;
+    }
     header{
         display:flex;
     }
