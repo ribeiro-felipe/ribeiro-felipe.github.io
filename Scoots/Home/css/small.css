@@ -135,3 +135,6 @@ footer div p{
     padding-bottom: 2em;
     text-align: center;
 } 
+footer a{
+    color: white;
+}
