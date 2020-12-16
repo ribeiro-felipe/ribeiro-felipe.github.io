@@ -14,8 +14,7 @@
         display: none;
     }
     nav ul {
-        padding-right: 16em;
-        padding-left: 16em;
+        padding: 1em;
     }
     nav ul li a:hover{
         background-color: transparent;
