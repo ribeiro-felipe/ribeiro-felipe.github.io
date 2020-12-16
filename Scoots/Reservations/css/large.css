@@ -1,7 +1,7 @@
 @media only screen and (min-width: 990px) {
     nav ul {
-        padding-right: 16em;
-        padding-left: 16em;
+        padding-right: 10em;
+        padding-left: 10em;
     }
     nav ul li a{
         padding: 1em 3em 1em 3em;
