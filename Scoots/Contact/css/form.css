@@ -50,7 +50,9 @@ form input.report-button {
 .content{
     padding: 4em;
 }
-
+form input.report-button:hover {
+    opacity: 0.4;
+}
 @media only screen and (min-width: 560px) {
     form {
         margin: auto;

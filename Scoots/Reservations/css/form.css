@@ -46,6 +46,9 @@ form input.report-button {
     padding: 1em;
     width: 100%;
 }
+form input.report-button:hover {
+    opacity: 0.4;
+}
 .content{
     padding: 4em;
 }

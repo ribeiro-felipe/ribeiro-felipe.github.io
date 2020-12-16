@@ -104,6 +104,9 @@ body {
     border: none;
     border-radius: 20px
 }
+button:hover {
+    background-color: #a08ac9;
+}
 
 
 .rental-subtitle {
