@@ -127,6 +127,13 @@ body {
 .tour-wrap img{
     max-width: 50%;
 }
+button {
+    padding: .8em 4em .8em 4em;
+    color: white;
+    background-color: #583895;
+    border: none;
+    border-radius: 20px
+}
 
 
 /*footer*/    

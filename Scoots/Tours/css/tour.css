@@ -20,12 +20,22 @@
     color: #583895;
 }
 .upper-tour h2{
-  font-size: 34px;
+  font-size: 30px;    
+  color: #583895;
 }
+
+.upper-tour h3{
+    color: #583895;
+  }
+
+.upper-tour p{
+    padding: 0 2em 1em 2em ;
+  }
 
 @media only screen and (min-width: 560px) {
     .img-group {
         display: block;
+        padding-top: 1.5em;
     }
 
 }
