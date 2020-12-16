@@ -75,8 +75,6 @@ body {
     width: 50%;
     padding: 1em;
     margin: auto;
-    color: white;
-    text-shadow: black 1px 2px 3px;
 }
 .text-wrapper p{
     text-align: center;
@@ -113,6 +111,21 @@ body {
     color: #e1d6f5;
     font-weight: bold;
     /* text-decoration: none; */
+}
+.content-wrapper h2{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: -90px;
+    color: #583895;
+}
+.content-wrapper img{
+    opacity: 0.6;
+}
+.upper-tour{
+    margin-top:30px;
+}
+.tour-wrap img{
+    max-width: 50%;
 }
 
 

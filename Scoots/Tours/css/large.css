@@ -20,4 +20,19 @@
     .weather-summary{
         margin-top: 10em;
     }
+    .content-wrapper h2{
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        margin-top: 70px;
+        color: #583895;
+    }
+    .content-wrapper img{
+        opacity: 0.6;
+    }
+    .upper-tour{
+        margin-top:200px;
+    }
+    .tour-wrap img{
+        max-width: 400px;
+    }
 }

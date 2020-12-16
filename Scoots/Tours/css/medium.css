@@ -27,8 +27,20 @@
         position: relative;
         margin-top: -200px;
     }
-    .weather-summary{
-        margin-top: .8em;
+    .content-wrapper h2{
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        margin-top: 50px;
+        color: #583895;
+    }
+    .content-wrapper img{
+        opacity: 0.6;
+    }
+    .upper-tour{
+        margin-top:100px;
+    }
+    .tour-wrap img{
+        max-width: 50%;
     }
     /*footer*/    
 footer{
