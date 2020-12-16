@@ -33,6 +33,7 @@ fetch(requestURL)
         card.append(p_one);
 
         p_two.textContent = "Reservation";
+        p_two.setAttribute("class", "underline");
 
         card.append(p_two);
 
@@ -41,6 +42,7 @@ fetch(requestURL)
         card.append(p_three);
 
         p_four.textContent = "Walk-In";
+        p_four.setAttribute("class", "underline");
 
         card.append(p_four);
 

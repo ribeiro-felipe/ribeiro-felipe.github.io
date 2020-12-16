@@ -127,6 +127,9 @@ section {
     grid-gap: 2em;
     padding: 1em;
 }
+.underline{
+    text-decoration: underline;
+}
 
 
 /*footer*/    

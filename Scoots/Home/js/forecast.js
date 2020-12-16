@@ -10,7 +10,7 @@ apiURL = baseURL +
          '&APPID=' + apikey +
          '&units=' + units;
 
-const DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const DOW = ['Sunday -', 'Monday -', 'Tuesday -', 'Wednesday -', 'Thursday -', 'Friday -', 'Saturday -'];
 fetch(apiURL)
    .then(response => response.json())
    .then(data => {
