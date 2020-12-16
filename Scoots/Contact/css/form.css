@@ -1,0 +1,70 @@
+form {
+    margin: auto;
+    width: 80%;
+}
+form fieldset {
+    border: 3px solid  #583895;
+    border-radius: 5px;
+    color: #583895;
+    /* padding: 1em; */
+}
+form label.top input:required {
+    border-right: red solid 6px;
+}
+form label.top input:required:valid {
+    border-right: rgb(54, 189, 54) solid 6px;
+}
+form label.top {
+    display: block;
+    padding: .6rem;
+    padding-bottom: 1em;
+}
+form label.top input, form label.top select {
+    display: block;
+    border: solid 2px rgb(209, 207, 207);
+    border-radius: 8px;
+    padding: .5rem;
+    margin: auto;
+    width: 95%;
+    /* background-color: #edeaf3; */
+    color: #9379c4;
+    /* opacity: 0.6; */
+}
+.fieldset-2{
+    margin: auto;
+}
+textarea{
+    margin: auto;
+    display: flex;
+}
+form input.report-button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color:#583895;
+    color: white;
+    padding: 1em;
+    width: 100%;
+}
+.content{
+    padding: 4em;
+}
+
+@media only screen and (min-width: 560px) {
+    form {
+        margin: auto;
+        width: 60%;
+    } 
+}
+
+@media only screen and (min-width: 990px) {
+    form {
+        margin: auto;
+        width: 30%;
+    } 
+    textarea{
+        margin: auto;
+        display: flex;
+        padding:3em;
+    }
+}

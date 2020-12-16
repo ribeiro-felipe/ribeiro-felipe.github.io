@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Baloo 2', cursive;
+}
+
+
+/*nav*/
+#logo {
+    width: 30%;
+    max-width: 150px;
+    margin-top: 7px;
+    padding: 1em 1em 1em 8.5em;
+}
+nav {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    color: #583895;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+	margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+nav ul li a {
+    display: block;
+    color: #583895;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:#583895;
+    color: white;
+}
+nav ul li a:active{
+    background-color:#583895;
+    color: white;
+    opacity: 0.8;
+}
+nav button {
+    margin: auto;
+    margin: .2rem 2%;
+    background: transparent;
+    border: none;
+    color: #583895;
+    padding: .5em;
+}
+nav ul.hide {
+    display: none;
+}
+#active_page {
+    color: #583895;
+    opacity: 0.5;
+}
+
+
+
+/*body*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#home-img{
+    width: 100%;
+}
+h2 {
+    font-size: 26px;
+    text-align: center;
+    color: #583895;
+}
+.location-map {    
+    padding: 3em 0 3em 0;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    border-radius: 10px;
+    border:#583895 solid 2px;
+    max-width: 330px;
+}
+
+
+
+/*footer*/    
+footer{
+    background-color: #583895;
+    color: white;
+}
+footer div{
+    padding: 1.2em;
+}
+footer div p{
+    display: inline-block;
+}
+.social-media-footer {
+    padding:  0 .2em 0 .2em;
+    float: right;
+}
+#footer-info{
+    padding-bottom: 2em;
+    text-align: center;
+} 
+footer a{
+    color: white;
+}

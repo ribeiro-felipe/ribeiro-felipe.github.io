@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Scoots Website">
+    <link rel="shortcut icon" href="img/scoots_favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Scoots | Contact</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/Scoots/Home/home.html">
+                <img src="img/Scoots Logo/scootslogo2.png" alt="Logo" id="logo">
+            </a>
+        </div>
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/Scoots/Home/home.html">Home</a></li>
+                <li><a href="/Scoots/Rentals/rentals.html">Rentals</a></li>
+                <li><a href="/Scoots/Reservations/reservations.html">Reservations</a></li>
+                <li><a href="/Scoots/Tours/tours.html">Tour</a></li>
+                <li><a href="/Scoots/Contact/contact.html" id="active_page">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>
+
+        <h2>Contact Us!</h2>
+
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <div class="form-field">
+                    <label class="top">Full Name: <input type="text" name="fullname" pattern="(w| ){5,)"
+                            required></label>
+                </div>
+                <div class="form-field">
+                    <label class="top">Email <input type="email" name="email" placeholder="name@email.com"
+                            required></label>
+                </div>
+                <label class="top">Comments: </label>
+                <textarea name="additionalinfo" rows="10" cols="28"></textarea>
+            </fieldset>
+        </form>
+
+        <div class="location-map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1w6tFrhjndstnln4yD3CzYqGNBvMtNs9T" width="430" height="350"></iframe>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-smedia">
+            Scoots - <span id="year"></span><span id="current-date"></span>
+            <a href="#">
+                <img src="img/social_media/iconmonstr-facebook-4-24.png" alt="Facebook Icon"
+                    class="social-media-footer">
+            </a>
+            <a href="#">
+                <img src="img/social_media/iconmonstr-instagram-14-24.png" alt="Instagram Icon"
+                    class="social-media-footer">
+            </a>
+            <a href="#">
+                <img src="img/social_media/iconmonstr-twitter-4-24.png" alt="Twitter Icon" class="social-media-footer">
+            </a>
+        </div>
+        <br>
+        <br>
+        <p id="footer-info">Felipe Ribeiro | WDD230 | BYUI-Idaho |<a
+                href="https://ribeiro-felipe.github.io/Scoots/Rentals/data/rentals.json">Resources</a></p>
+
+    </footer>
+    <script src="js/toggle-menu.js"></script>
+    <script src="js/current-date.js"></script>
+    <script src="js/weather-summary.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Baloo 2', 'Open Sans']
+            }
+        })
+    </script>
+
+</body>
+
+</html>
