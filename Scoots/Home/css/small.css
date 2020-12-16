@@ -63,6 +63,7 @@ nav ul.hide {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 #home-img{
     width: 100%;
 }
@@ -133,7 +134,7 @@ body {
 .box{
     border: #583895 solid 2px;
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 

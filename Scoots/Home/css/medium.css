@@ -23,21 +23,26 @@
         color: #583895;
         opacity: 0.5;
     }
+    h2{
+        font-size: 36px;
+    }
     .text-wrapper{
         position: relative;
         margin-top: -200px;
     }
-    .text-wrapper p{
+    /* .text-wrapper p{
         text-align: center;
         width: 50%;
         margin: auto;
         color: white;
         text-shadow: black 1px 2px 3px;
+    } */
+    #psmall{
+        margin-top: 80px;
+        color: #583895;
+        font-size: 24px;
     }
-    #pbig {
-        display: block;
-    }
-    #psmall {
+    #pbig{
         display: none;
     }
     .button-wrapper {
@@ -49,6 +54,12 @@
     }
     .content-wrapper2{
         margin-top: .8em;
+    }
+    .box{
+        border: #583895 solid 2px;
+        border-radius: 10px;
+        width: 70%;
+        margin: auto;
     }
     /*footer*/    
 footer{
