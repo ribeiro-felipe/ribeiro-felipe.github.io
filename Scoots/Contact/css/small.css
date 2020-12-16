@@ -81,7 +81,12 @@ iframe{
     border:#583895 solid 2px;
     max-width: 330px;
 }
-
+.thanks-div{
+    padding:5em;
+    padding-bottom:12em;
+    text-align: center;
+    color: #583895;
+}
 
 
 /*footer*/    

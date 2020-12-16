@@ -45,6 +45,7 @@ form input.report-button {
     color: white;
     padding: 1em;
     width: 100%;
+    margin-top: 1em;
 }
 .content{
     padding: 4em;
