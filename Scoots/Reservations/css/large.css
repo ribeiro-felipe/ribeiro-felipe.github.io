@@ -9,7 +9,6 @@
         padding: 1em 3em 1em 3em;
     }
     nav ul li a:hover{
-        background-color: none;
         color: #583895;
         opacity: 0.5;
     }
