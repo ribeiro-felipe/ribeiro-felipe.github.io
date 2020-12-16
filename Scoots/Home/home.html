@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Scoots Website">
     <link rel="shortcut icon" href="/Scoots/Home/img/scoots_favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/Scoots/Home/css/normalize.css">
+    <link rel="stylesheet" href="/Scoots/Home/css/weather.css">
     <link rel="stylesheet" href="/Scoots/Home/css/small.css">
     <link rel="stylesheet" href="/Scoots/Home/css/medium.css">
     <link rel="stylesheet" href="/Scoots/Home/css/large.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Scoots | Home</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -39,11 +43,14 @@
             <img src="/Scoots/Home/img/hero-home.jpg" alt="People on a Jeep at the beach." id="home-img">
             <div class="text-wrapper">
                 <h2>Cozumel Made Easy for You!</h2>
-                <p id="pbig">Enjoy the best of Cozumel with Scoots! Start your reservation early, quick and simple, just follow a few steps and you are set!</p>
+                <p id="pbig">Enjoy the best of Cozumel with Scoots! Start your reservation early, quick and simple, just
+                    follow a few steps and you are set!</p>
                 <p id="psmall">Start your reservation today</p>
             </div>
             <div class="button-wrapper">
-                <button onclick="window.location.href='https:ribeiro-felipe.github.io/Scoots/Reservations/reservations.html'">Start Now</button>
+                <button
+                    onclick="window.location.href='https:ribeiro-felipe.github.io/Scoots/Reservations/reservations.html'">Start
+                    Now</button>
             </div>
         </div>
 
@@ -51,111 +58,124 @@
 
         <!-- weather conditions -->
         <div class="content-wrapper2">
-            <h3>Weather in Cozumel, MX</h3>
+            <div class="weather-div">
+                <div class="weather-summary">
+                    <h3>Weather in Cozumel, MX</h3>
 
 
-        <div class="weather-summary">
-        <table>
-            <tr>
-              <th>Temperature:</th>
-              <td><span id="temperature"></span></td> 
-            </tr>
-            <tr>
-                <td>Feels Like:</td>
-                <td><span id="feelslike"></span></td> 
-              </tr>
-              <tr>
-                <td>Currently:</td>
-                <td><span id="description"></span></td> 
-              </tr>
-              <tr>
-                <td>Humidity:</td>
-                <td><span id="humidity"></span></td> 
-              </tr>
-          </table>
-          </div>
+
+                    <table>
+                        <tr>
+                            <td>Temperature:</td>
+                            <td><span id="temperature"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Feels Like:</td>
+                            <td><span id="feelslike"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Currently:</td>
+                            <td><span id="description"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Humidity:</td>
+                            <td><span id="humidity"></span></td>
+                        </tr>
+                    </table>
+                </div>
 
 
-        <!-- weather forecast -->
-         <h3>Weather Forecast</h3>
-         <div class="forecast">
-            <div class="forecast-day">
-               <div class="dow"></div>
-               <div class="temp"></div>
+                <!-- weather forecast -->
+                <div class="weather-forecast">
+                    <h3>Weather Forecast</h3>
+                    <div class="forecast-table">
+                        <div class="forecast">
+                            <div class="forecast-day">
+                                <div class="dow"></div>
+                                <div class="temp"></div>
+                            </div>
+                            <div class="forecast-day">
+                                <div class="dow"></div>
+                                <div class="temp"></div>
+                            </div>
+                            <div class="forecast-day">
+                                <div class="dow"></div>
+                                <div class="temp"></div>
+                            </div>
+                            <div class="forecast-day">
+                                <div class="dow"></div>
+                                <div class="temp"></div>
+                            </div>
+                            <div class="forecast-day">
+                                <div class="dow"></div>
+                                <div class="temp"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="forecast-day">
-               <div class="dow"></div>
-               <div class="temp"></div>
-            </div>
-            <div class="forecast-day">
-               <div class="dow"></div>
-               <div class="temp"></div>
-            </div>
-            <div class="forecast-day">
-               <div class="dow"></div>
-               <div class="temp"></div>
-            </div>
-            <div class="forecast-day">
-               <div class="dow"></div>
-               <div class="temp"></div>
-            </div>
-         </div>
 
 
 
             <br>
 
+            <!-- rental summary -->
+            <div class="rental">
+
+                <h2>Our Fleet!</h2>
+
+                <div class="box">
+
+                    <h3 class="rental-subtitle">Scooters</h3>
+
+                    <h4>Honda Metropolitan</h4>
+                    <p>49 cc - 1 Person</p>
+
+                    <h4>Honda Dio</h4>
+                    <p>110 cc - 2 Person</p>
+
+                    <h4>Honda PCX150</h4>
+                    <p>149 cc - 2 Person</p>
+
+                </div>
+
+                <br>
+
+                <div class="box">
+
+                    <h3 class="rental-subtitle">ATV Side-by-Side</h3>
+
+                    <h4>Honda Pioneer 1000</h4>
+
+                </div>
+
+                <br>
+
+                <div class="box">
+
+                    <h3 class="rental-subtitle">Jeeps</h3>
+
+                    <h4>Jeep Wrangler 4 Door</h4>
+                    <p>Manual w/ A/C - max 5 People</p>
+
+                    <h4>Jeep Wrangler 2 Door</h4>
+                    <p>Open Air - Manual - max 4 People</p>
+
+                </div>
 
 
 
+            </div>
 
+            <!-- contact info and social media -->
+            <div class="contact">
 
-        <!-- rental summary -->
-        <div class="rental">
+                <h3>Scoots</h3>
+                <p>(123) 456-7890</p>
+                <p>scootsrental@scoots.com</p>
+                <a href="#"> Follow Us on Social Media!</a>
 
-            <h2>Our Fleet!</h2>
-
-            <h3 class="rental-subtitle">Scooters</h3>
-
-            <h4>Honda Metropolitan</h4>
-            <p>49 cc - 1 Person</p>
-
-            <h4>Honda Dio</h4>
-            <p>110 cc - 2 Person</p>
-
-            <h4>Honda PCX150</h4>
-            <p>149 cc - 2 Person</p>
-
-            <br>
-
-            <h3 class="rental-subtitle">ATV Side-by-Side</h3>
-            
-            <h4>Honda Pioneer 1000</h4>
-
-            <br>
-
-            <h3 class="rental-subtitle">Jeeps</h3>
-
-            <h4>Jeep Wrangler 4 Door</h4>
-            <p>Manual w/ A/C - max 5 People</p>
-
-            <h4>Jeep Wrangler 2 Door</h4>
-            <p>Open Air - Manual - max 4 People</p>
-            
-
-
-        </div>
-
-        <!-- contact info and social media -->
-        <div class="contact">
-
-            <h3>Scoots</h3>
-            <p>(123) 456-7890</p>
-            <p>scootsrental@scoots.com</p>
-            <a href="#"> Follow Us on Social Media!</a>
-
-
-        </div>
+            </div>
 
         </div>
     </main>
@@ -164,18 +184,22 @@
         <div class="footer-smedia">
             Scoots - <span id="year"></span><span id="current-date"></span>
             <a href="#">
-                <img src="/Scoots/Home/img/social_media/iconmonstr-facebook-4-24.png" alt="Facebook Icon" class="social-media-footer">
+                <img src="/Scoots/Home/img/social_media/iconmonstr-facebook-4-24.png" alt="Facebook Icon"
+                    class="social-media-footer">
             </a>
             <a href="#">
-                <img src="/Scoots/Home/img/social_media/iconmonstr-instagram-14-24.png" alt="Instagram Icon" class="social-media-footer">
+                <img src="/Scoots/Home/img/social_media/iconmonstr-instagram-14-24.png" alt="Instagram Icon"
+                    class="social-media-footer">
             </a>
-            <a href="#">    
-                <img src="/Scoots/Home/img/social_media/iconmonstr-twitter-4-24.png" alt="Twitter Icon" class="social-media-footer">
+            <a href="#">
+                <img src="/Scoots/Home/img/social_media/iconmonstr-twitter-4-24.png" alt="Twitter Icon"
+                    class="social-media-footer">
             </a>
         </div>
         <br>
         <br>
-        <p id="footer-info">Felipe Ribeiro | WDD230 | BYUI-Idaho |<a href="https://ribeiro-felipe.github.io/Scoots/Rentals/data/rentals.json">Resources</a></p>
+        <p id="footer-info">Felipe Ribeiro | WDD230 | BYUI-Idaho |<a
+                href="https://ribeiro-felipe.github.io/Scoots/Rentals/data/rentals.json">Resources</a></p>
 
     </footer>
     <script src="js/toggle-menu.js"></script>
@@ -185,11 +209,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
-    google: {
-      families: ['Baloo 2', 'Open Sans']
-    }
-  })
-     </script>
-    
+            google: {
+                families: ['Baloo 2', 'Open Sans']
+            }
+        })
+    </script>
+
 </body>
+
 </html>

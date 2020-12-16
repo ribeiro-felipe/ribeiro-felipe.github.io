@@ -2,7 +2,7 @@
     #logo {
         width: 80%;
         margin-top: 9px;
-        padding: 1em 1em 1em 6em;
+        padding: 1em 1em 1em 2em;
     }
     header{
         display:flex;
@@ -14,8 +14,7 @@
         display: none;
     }
     nav ul {
-        padding-right: 16em;
-        padding-left: 16em;
+        padding: 1em;
     }
     nav ul li a:hover{
         background-color: transparent;
